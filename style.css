@@ -1,0 +1,281 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: poppins;
+	
+	background-color: black;
+}
+
+#container{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	background-image: linear-gradient(#1D1D1D,black);
+	
+}
+
+
+#container div{
+	color: white;
+}
+
+#container #logo {
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+#container #navBarre ul{
+	display: flex;
+	list-style: none;
+	text-decoration: none;
+
+}
+
+#container #navBarre ul li{
+	margin: 0 50px;
+	list-style: none;
+	text-decoration: none;
+
+}
+#container #navBarre ul li a{
+	font-size: 25px;
+	font-weight: bold;
+	list-style: none;
+	text-decoration: none;
+}
+
+#choices{
+	position: absolute;
+	height: 40px;
+	width: 30%;
+	left: 35%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	top: 67%;
+}
+
+button{
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 0 10px;
+	text-decoration: none;
+	background-color: black;
+}
+
+#about{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+#about:hover{
+	box-shadow: 0 5px 50px 0 white inset, 0 5px 50px 0 white,
+				0 5px 50px 0 white inset, 0 5px 50px 0 white;
+				
+	text-shadow: 0 0 5px white;}
+
+#menu{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+	#menu:hover{
+	box-shadow: 0 5px 50px 0 white inset, 0 5px 50px 0 white,
+				0 5px 50px 0 white inset, 0 5px 50px 0 white;
+				
+	text-shadow: 0 0 5px white;} 
+
+#paper{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+#paper:hover{
+	box-shadow: 0 5px 50px 0 #52C6FA inset, 0 5px 50px 0 #52C6FA,
+				0 5px 50px 0 #52C6FA inset, 0 5px 50px 0 #52C6FA;
+	text-shadow: 0 0 5px #52C6FA;
+
+}
+
+#scissors{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+#scissors:hover{
+	box-shadow: 0 5px 50px 0 #FCE753 inset, 0 5px 50px 0 #FCE753,
+				0 5px 50px 0 #FCE753 inset, 0 5px 50px 0 #FCE753;
+	text-shadow: 0 0 5px #FCE753;
+}
+
+#rock{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+}
+
+#rock:hover{
+	box-shadow: 0 5px 50px 0 #FC97EA inset, 0 5px 50px 0 #FC97EA,
+				0 5px 50px 0 #FC97EA inset, 0 5px 50px 0 #FC97EA;
+	text-shadow: 0 0 5px #FC97EA;
+}
+
+#reset{
+	width : 120px;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	border: none;
+	position: absolute;
+	left: 45.5%;
+	top: 82%;
+	background-color: black;
+
+}
+
+#reset:hover {
+	box-shadow: 0 5px 50px 0 #CB0DBF inset, 0 5px 50px 0 #CB0DBF,
+				0 5px 50px 0 #CB0DBF inset, 0 5px 50px 0 #CB0DBF;
+	text-shadow: 0 0 5px #CB0DBF;
+}
+
+#paperPc{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+	left: 30.5%;
+	top: 30%;
+}
+
+#rockPc{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	left: 30.5%;
+	top: 30%;
+}
+
+#scissorPc{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	left: 30.5%;
+	top: 30%;
+}
+
+#paperMe{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	left: 56%;
+	top: 30%;
+}
+
+#rockMe{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	left: 56%;
+	top: 30%;
+}
+
+#scissorMe{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	left: 56%;
+	top: 30%;
+}
+
+#roundsCount{
+	font-size: 2.5em;
+	font-weight: bold;
+	position: absolute;
+	left: 46%;
+	top: 20%;
+	color: white;
+}
+
+
+#me{
+	position: absolute;
+	left: 52%;
+	top: 35%;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+}
+#twoPoint{
+	position: absolute;
+	left: 48.5%;
+	top: 34.5%;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+}
+
+#pc{
+	position: absolute;
+	left: 44%;
+	top: 35%;
+	color: white;
+	font-size: 3em;
+	font-weight: bold;
+
+}
+
+.hidden{
+	opacity: 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link  href="Font-family/Poppins">
+	<title>Rock-Paper-Scissors</title>
+	<script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	
+</head>
+<body>
+	
+	<nav id="container">
+		<div id="logo">BYLUCK</div>
+		<div id="navBarre">
+			<ul>
+				<li><button id="about">About</button></li>
+				<li><button id="menu">Rounds</button></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<nav id="choices">
+		<button href="#" id="rock" >Rock</button>
+		<button href="#" id="paper">Paper</button>
+		<button href="#" id="scissors">Scissors</button>
+	</nav>
+	<button id="reset">Reset</button>
+	<div id="imgPc"> 
+		<img src="Images/paper-left.png" id="paperPc" class="hidden">
+		<img src="Images/rock-left.png" id="rockPc" class="hidden">
+		<img src="Images/scissor-left.png" id="scissorPc" class="hidden">
+	</div>
+	<div id="imgMe">
+		<img src="Images/paper-right.png" id="paperMe" class="hidden">
+		<img src="Images/rock-right.png" id="rockMe" class="hidden">
+		<img src="Images/scissor-right.png" id="scissorMe" class="hidden">
+	</div>
+
+	<div id="roundsCount">Score</div>
+	<div id="me">0</div>
+	<div id="twoPoint"> : </div>
+	<div id="pc">0</div>
+	
+	
+	
+<script src="index.js"></script>
+</body>
+</html>
